@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.samples.enterprise.masterdetail.business.service;
+package org.samples.enterprise.masterdetail.business;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
