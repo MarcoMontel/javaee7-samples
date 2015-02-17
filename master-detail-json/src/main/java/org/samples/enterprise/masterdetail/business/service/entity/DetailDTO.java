@@ -3,9 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.syncromed.poc.masterdetail.business.service.entity;
+package org.samples.enterprise.masterdetail.business.service.entity;
 
-import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 
@@ -14,22 +13,15 @@ import javax.xml.bind.annotation.XmlAccessorType;
  * @author mmontel
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-public class MasterDTO {
+public class DetailDTO {
     private final String name;
-    private final Detail detail;
-    
-    public MasterDTO(String name, Detail detail) {
+
+    public DetailDTO(String name) {
         this.name = name;
-        this.detail = detail;
     }
 
     public String getName() {
         return name;
     }
-
-    public Detail getDetails() {
-        return detail;
-    }
-    
     
 }

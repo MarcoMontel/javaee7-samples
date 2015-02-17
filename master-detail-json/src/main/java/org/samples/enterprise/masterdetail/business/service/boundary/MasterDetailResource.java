@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.syncromed.poc.masterdetail.business.service.boundary;
+package org.samples.enterprise.masterdetail.business.service.boundary;
 
-import com.syncromed.poc.masterdetail.business.service.entity.Detail;
-import com.syncromed.poc.masterdetail.business.service.entity.Master;
-import com.syncromed.poc.masterdetail.business.service.entity.MasterDTO;
+import org.samples.enterprise.masterdetail.business.service.entity.Detail;
+import org.samples.enterprise.masterdetail.business.service.entity.Master;
+import org.samples.enterprise.masterdetail.business.service.entity.MasterDTO;
 import java.util.Date;
 import java.util.List;
 import javax.ejb.Stateless;

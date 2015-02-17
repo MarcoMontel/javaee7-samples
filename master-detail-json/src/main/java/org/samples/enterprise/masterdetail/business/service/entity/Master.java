@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.syncromed.poc.masterdetail.business.service.entity;
+package org.samples.enterprise.masterdetail.business.service.entity;
 
 import java.io.Serializable;
 import java.util.ArrayList;
