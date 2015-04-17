@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Apr 17 15:06:52 CEST 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-014c-c77d-2f60-00000bbbd918 
+on database directory memory:/Users/mmontel/Documents/dev/javaee7-samples/join-table/testDB with class loader sun.misc.Launcher$AppClassLoader@612dcb8c 
+Loaded from file:/Users/mmontel/.m2/repository/org/apache/derby/derby/10.10.1.1/derby-10.10.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_45-b18
+user.dir=/Users/mmontel/Documents/dev/javaee7-samples/join-table
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.10.3
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
