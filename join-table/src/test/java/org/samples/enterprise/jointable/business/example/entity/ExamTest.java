@@ -98,8 +98,6 @@ public class ExamTest {
             assertTrue(report.getText().equalsIgnoreCase("Some examination 1 and 2 Report description"));
         }
         
-        Exam exam = em.find(Exam.class, 1L);
-        System.out.println(exam);
         tx.commit();
         
     }
