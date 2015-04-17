@@ -91,7 +91,6 @@ public class ExamTest {
         List<Exam> exams = em.createQuery("SELECT e FROM Exam e", Exam.class).getResultList();
 
         for (Exam exam : exams) {
-            System.out.println(exam.getDescription());
             assertTrue(exam.getDescription().equalsIgnoreCase("Some examination " + exam.getId() + " description"));
             List<Report> reports = exam.getReports();
             assertTrue(reports.size() == 1);
