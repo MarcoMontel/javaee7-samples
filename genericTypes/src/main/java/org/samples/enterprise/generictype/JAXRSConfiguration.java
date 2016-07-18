@@ -1,4 +1,4 @@
-package com.airhacks;
+package org.samples.enterprise.generictype;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
