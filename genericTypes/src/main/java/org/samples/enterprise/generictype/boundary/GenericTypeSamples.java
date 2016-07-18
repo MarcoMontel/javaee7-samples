@@ -47,12 +47,6 @@ public class GenericTypeSamples {
         GenericEntity<List<Employee>> genericEntity = new GenericEntity<List<Employee>>(list) {};
         return Response.ok(genericEntity).build();
     }
-    
-    @GET
-    @Path("date")
-    @Produces(MediaType.TEXT_PLAIN)
-    public Response getDate() {
-        return Response.ok(new Date().toString()).build();
-    }
+
 }
 
